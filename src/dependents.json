@@ -1,0 +1,562 @@
+{
+  "ubuntu-build-essential-16.04": {
+    "from": "ubuntu:16.04",
+    "image_name": "cyberdojofoundation/ubuntu-build-essential:16.04",
+    "test_framework": false
+  },
+  "ubuntu-build-essential-18.04": {
+    "from": "ubuntu:18.04",
+    "image_name": "cyberdojofoundation/ubuntu-build-essential:18.04",
+    "test_framework": false
+  },
+  "vhdl": {
+    "from": "cyberdojofoundation/ubuntu-build-essential:18.04",
+    "image_name": "cyberdojofoundation/vhdl",
+    "test_framework": false
+  },
+  "vhdl-assert": {
+    "from": "cyberdojofoundation/vhdl",
+    "image_name": "cyberdojofoundation/vhdl_assert",
+    "test_framework": true
+  },
+  "visual-basic": {
+    "from": "cyberdojofoundation/ubuntu-build-essential:18.04",
+    "image_name": "cyberdojofoundation/visual-basic",
+    "test_framework": false
+  },
+  "visual-basic-nunit": {
+    "from": "cyberdojofoundation/visual-basic",
+    "image_name": "cyberdojofoundation/visual-basic_nunit",
+    "test_framework": true
+  },
+  "alpine-glibc": {
+    "from": "alpine:latest",
+    "image_name": "cyberdojofoundation/alpine_glibc",
+    "test_framework": false
+  },
+  "bash": {
+    "from": "koalaman/shellcheck-alpine",
+    "image_name": "cyberdojofoundation/bash",
+    "test_framework": false
+  },
+  "bash-bats": {
+    "from": "cyberdojofoundation/bash",
+    "image_name": "cyberdojofoundation/bash_bats",
+    "test_framework": true
+  },
+  "bash-shunit2": {
+    "from": "cyberdojofoundation/bash",
+    "image_name": "cyberdojofoundation/bash_shunit2",
+    "test_framework": true
+  },
+  "bash-unit": {
+    "from": "cyberdojofoundation/bash",
+    "image_name": "cyberdojofoundation/bash_unit",
+    "test_framework": true
+  },
+  "bcpl": {
+    "from": "cyberdojofoundation/ubuntu-build-essential:18.04",
+    "image_name": "cyberdojofoundation/bcpl",
+    "test_framework": false
+  },
+  "bcpl-alltestspassed": {
+    "from": "cyberdojofoundation/bcpl",
+    "image_name": "cyberdojofoundation/bcpl_all_tests_passed",
+    "test_framework": true
+  },
+  "chapel": {
+    "from": "cyberdojofoundation/alpine_glibc",
+    "image_name": "cyberdojofoundation/chapel",
+    "test_framework": false
+  },
+  "chapel-assert": {
+    "from": "cyberdojofoundation/chapel",
+    "image_name": "cyberdojofoundation/chapel_assert",
+    "test_framework": true
+  },
+  "clang": {
+    "from": "cyberdojofoundation/ubuntu-build-essential:18.04",
+    "image_name": "cyberdojofoundation/clang",
+    "test_framework": false
+  },
+  "clang-assert": {
+    "from": "cyberdojofoundation/clang",
+    "image_name": "cyberdojofoundation/clang_assert",
+    "test_framework": true
+  },
+  "clang-cgreen": {
+    "from": "cyberdojofoundation/clang",
+    "image_name": "cyberdojofoundation/clang_cgreen",
+    "test_framework": true
+  },
+  "clangplusplus": {
+    "from": "cyberdojofoundation/ubuntu-build-essential:18.04",
+    "image_name": "cyberdojofoundation/clangplusplus",
+    "test_framework": false
+  },
+  "clangplusplus-assert": {
+    "from": "cyberdojofoundation/clangplusplus",
+    "image_name": "cyberdojofoundation/clangpp_assert",
+    "test_framework": true
+  },
+  "clangplusplus-cgreen": {
+    "from": "cyberdojofoundation/clangplusplus",
+    "image_name": "cyberdojofoundation/clangpp_cgreen",
+    "test_framework": true
+  },
+  "clangplusplus-googlemock": {
+    "from": "cyberdojofoundation/clangplusplus",
+    "image_name": "cyberdojofoundation/clangpp_googlemock",
+    "test_framework": true
+  },
+  "clangplusplus-googletest": {
+    "from": "cyberdojofoundation/clangplusplus",
+    "image_name": "cyberdojofoundation/clangpp_googletest",
+    "test_framework": true
+  },
+  "clangplusplus-igloo": {
+    "from": "cyberdojofoundation/clangplusplus",
+    "image_name": "cyberdojofoundation/clangpp_igloo",
+    "test_framework": true
+  },
+  "clojure": {
+    "from": "clojure:lein-2.7.1-alpine",
+    "image_name": "cyberdojofoundation/clojure",
+    "test_framework": false
+  },
+  "clojure-midje": {
+    "from": "cyberdojofoundation/clojure",
+    "image_name": "cyberdojofoundation/clojure_midje",
+    "test_framework": true
+  },
+  "clojure-test": {
+    "from": "cyberdojofoundation/clojure",
+    "image_name": "cyberdojofoundation/clojure_clojure_test",
+    "test_framework": true
+  },
+  "coffeescript": {
+    "from": "cyberdojofoundation/ubuntu-build-essential:18.04",
+    "image_name": "cyberdojofoundation/coffeescript",
+    "test_framework": false
+  },
+  "coffeescript-jasmine": {
+    "from": "cyberdojofoundation/coffeescript",
+    "image_name": "cyberdojofoundation/coffeescript_jasmine",
+    "test_framework": true
+  },
+  "csharp": {
+    "from": "cyberdojofoundation/alpine_glibc",
+    "image_name": "cyberdojofoundation/csharp",
+    "test_framework": false
+  },
+  "csharp-moq": {
+    "from": "cyberdojofoundation/csharp",
+    "image_name": "cyberdojofoundation/csharp_moq",
+    "test_framework": true
+  },
+  "csharp-nunit": {
+    "from": "cyberdojofoundation/csharp",
+    "image_name": "cyberdojofoundation/csharp_nunit",
+    "test_framework": true
+  },
+  "csharp-specflow": {
+    "from": "cyberdojofoundation/csharp",
+    "image_name": "cyberdojofoundation/csharp_specflow",
+    "test_framework": true
+  },
+  "d": {
+    "from": "cyberdojofoundation/ubuntu-build-essential:18.04",
+    "image_name": "cyberdojofoundation/dee",
+    "test_framework": false
+  },
+  "d-unittest": {
+    "from": "cyberdojofoundation/dee",
+    "image_name": "cyberdojofoundation/d_unittest",
+    "test_framework": true
+  },
+  "elixir": {
+    "from": "alpine:latest",
+    "image_name": "cyberdojofoundation/elixir",
+    "test_framework": false
+  },
+  "elixir-exunit": {
+    "from": "cyberdojofoundation/elixir",
+    "image_name": "cyberdojofoundation/elixir_exunit",
+    "test_framework": true
+  },
+  "erlang": {
+    "from": "cyberdojofoundation/ubuntu-build-essential:18.04",
+    "image_name": "cyberdojofoundation/erlang",
+    "test_framework": false
+  },
+  "erlang-eunit": {
+    "from": "cyberdojofoundation/erlang",
+    "image_name": "cyberdojofoundation/erlang_eunit",
+    "test_framework": true
+  },
+  "fortran": {
+    "from": "gcc:latest",
+    "image_name": "cyberdojofoundation/fortran",
+    "test_framework": false
+  },
+  "fortran-funit": {
+    "from": "cyberdojofoundation/fortran",
+    "image_name": "cyberdojofoundation/fortran_funit",
+    "test_framework": true
+  },
+  "fsharp": {
+    "from": "cyberdojofoundation/ubuntu-build-essential:18.04",
+    "image_name": "cyberdojofoundation/fsharp",
+    "test_framework": false
+  },
+  "fsharp-nunit": {
+    "from": "cyberdojofoundation/fsharp",
+    "image_name": "cyberdojofoundation/fsharp_nunit",
+    "test_framework": true
+  },
+  "gcc": {
+    "from": "gcc:latest",
+    "image_name": "cyberdojofoundation/gcc",
+    "test_framework": false
+  },
+  "gcc-assert": {
+    "from": "cyberdojofoundation/gcc",
+    "image_name": "cyberdojofoundation/gcc_assert",
+    "test_framework": true
+  },
+  "gcc-cgreen": {
+    "from": "cyberdojofoundation/gcc",
+    "image_name": "cyberdojofoundation/gcc_cgreen",
+    "test_framework": true
+  },
+  "gcc-cpputest": {
+    "from": "cyberdojofoundation/gcc",
+    "image_name": "cyberdojofoundation/gcc_cpputest",
+    "test_framework": true
+  },
+  "gcc-googletest": {
+    "from": "cyberdojofoundation/gcc",
+    "image_name": "cyberdojofoundation/gcc_googletest",
+    "test_framework": true
+  },
+  "go": {
+    "from": "cyberdojofoundation/ubuntu-build-essential:18.04",
+    "image_name": "cyberdojofoundation/go",
+    "test_framework": false
+  },
+  "go-testing": {
+    "from": "cyberdojofoundation/go",
+    "image_name": "cyberdojofoundation/go_testing",
+    "test_framework": true
+  },
+  "gplusplus": {
+    "from": "gcc:latest",
+    "image_name": "cyberdojofoundation/gplusplus",
+    "test_framework": false
+  },
+  "gplusplus-assert": {
+    "from": "cyberdojofoundation/gplusplus",
+    "image_name": "cyberdojofoundation/gpp_assert",
+    "test_framework": true
+  },
+  "gplusplus-boosttest": {
+    "from": "cyberdojofoundation/gplusplus",
+    "image_name": "cyberdojofoundation/gpp_boosttest",
+    "test_framework": true
+  },
+  "gplusplus-catch": {
+    "from": "cyberdojofoundation/gplusplus",
+    "image_name": "cyberdojofoundation/gpp_catch",
+    "test_framework": true
+  },
+  "gplusplus-cgreen": {
+    "from": "cyberdojofoundation/gplusplus",
+    "image_name": "cyberdojofoundation/gpp_cgreen",
+    "test_framework": true
+  },
+  "gplusplus-cpputest": {
+    "from": "cyberdojofoundation/gplusplus",
+    "image_name": "cyberdojofoundation/gpp_cpputest",
+    "test_framework": true
+  },
+  "gplusplus-cucumber": {
+    "from": "cyberdojofoundation/gplusplus",
+    "image_name": "cyberdojofoundation/gpp_cucumber_gtest",
+    "test_framework": true
+  },
+  "gplusplus-googlemock": {
+    "from": "cyberdojofoundation/gplusplus",
+    "image_name": "cyberdojofoundation/gpp_googlemock",
+    "test_framework": true
+  },
+  "gplusplus-googletest": {
+    "from": "cyberdojofoundation/gplusplus",
+    "image_name": "cyberdojofoundation/gpp_googletest",
+    "test_framework": true
+  },
+  "gplusplus-igloo": {
+    "from": "cyberdojofoundation/gplusplus",
+    "image_name": "cyberdojofoundation/gpp_igloo",
+    "test_framework": true
+  },
+  "groovy": {
+    "from": "openjdk:8-jdk-alpine",
+    "image_name": "cyberdojofoundation/groovy",
+    "test_framework": false
+  },
+  "groovy-junit": {
+    "from": "cyberdojofoundation/groovy",
+    "image_name": "cyberdojofoundation/groovy_junit",
+    "test_framework": true
+  },
+  "groovy-spock": {
+    "from": "cyberdojofoundation/groovy",
+    "image_name": "cyberdojofoundation/groovy_spock",
+    "test_framework": true
+  },
+  "haskell": {
+    "from": "cyberdojofoundation/ubuntu-build-essential:18.04",
+    "image_name": "cyberdojofoundation/haskell",
+    "test_framework": false
+  },
+  "haskell-hunit": {
+    "from": "cyberdojofoundation/haskell",
+    "image_name": "cyberdojofoundation/haskell_hunit",
+    "test_framework": true
+  },
+  "java": {
+    "from": "openjdk:8-jdk-alpine",
+    "image_name": "cyberdojofoundation/java",
+    "test_framework": false
+  },
+  "java-approval": {
+    "from": "cyberdojofoundation/java",
+    "image_name": "cyberdojofoundation/java_approval",
+    "test_framework": true
+  },
+  "java-cucumber3base": {
+    "from": "cyberdojofoundation/java",
+    "image_name": "cyberdojofoundation/java_cucumber3_base",
+    "test_framework": false
+  },
+  "java-cucumber3spring": {
+    "from": "cyberdojofoundation/java_cucumber3_base",
+    "image_name": "cyberdojofoundation/java_cucumber3_spring",
+    "test_framework": true
+  },
+  "java-cucumberbase": {
+    "from": "cyberdojofoundation/java",
+    "image_name": "cyberdojofoundation/java_cucumber_base",
+    "test_framework": false
+  },
+  "java-cucumberpico": {
+    "from": "cyberdojofoundation/java_cucumber_base",
+    "image_name": "cyberdojofoundation/java_cucumber_pico",
+    "test_framework": true
+  },
+  "java-cucumberspring": {
+    "from": "cyberdojofoundation/java_cucumber_base",
+    "image_name": "cyberdojofoundation/java_cucumber_spring",
+    "test_framework": true
+  },
+  "java-jmock": {
+    "from": "cyberdojofoundation/java",
+    "image_name": "cyberdojofoundation/java_jmock",
+    "test_framework": true
+  },
+  "java-junit": {
+    "from": "cyberdojofoundation/java",
+    "image_name": "cyberdojofoundation/java_junit",
+    "test_framework": true
+  },
+  "java-mockito": {
+    "from": "cyberdojofoundation/java",
+    "image_name": "cyberdojofoundation/java_mockito",
+    "test_framework": true
+  },
+  "java-powermockito": {
+    "from": "cyberdojofoundation/java",
+    "image_name": "cyberdojofoundation/java_powermockito",
+    "test_framework": true
+  },
+  "java-sqlite": {
+    "from": "cyberdojofoundation/java",
+    "image_name": "cyberdojofoundation/java_junit_sqlite",
+    "test_framework": true
+  },
+  "javascript": {
+    "from": "cyberdojofoundation/ubuntu-build-essential:18.04",
+    "image_name": "cyberdojofoundation/javascript-node",
+    "test_framework": false
+  },
+  "javascript-assert": {
+    "from": "cyberdojofoundation/javascript-node",
+    "image_name": "cyberdojofoundation/javascript-node_assert",
+    "test_framework": true
+  },
+  "javascript-assert-jquery": {
+    "from": "cyberdojofoundation/javascript-node_assert",
+    "image_name": "cyberdojofoundation/javascript-node_assert-jquery",
+    "test_framework": true
+  },
+  "javascript-cucumber": {
+    "from": "cyberdojofoundation/javascript-node",
+    "image_name": "cyberdojofoundation/javascript-node_cucumber",
+    "test_framework": true
+  },
+  "javascript-cucumber-jasmine": {
+    "from": "cyberdojofoundation/javascript-node_cucumber",
+    "image_name": "cyberdojofoundation/javascript-node_cucumber_jasmine",
+    "test_framework": true
+  },
+  "javascript-jasmine": {
+    "from": "cyberdojofoundation/javascript-node",
+    "image_name": "cyberdojofoundation/javascript-node_jasmine",
+    "test_framework": true
+  },
+  "javascript-mocha-chai-sinon": {
+    "from": "cyberdojofoundation/javascript-node",
+    "image_name": "cyberdojofoundation/javascript-node_mocha_chai_sinon",
+    "test_framework": true
+  },
+  "javascript-qunit-sinon": {
+    "from": "cyberdojofoundation/javascript-node",
+    "image_name": "cyberdojofoundation/javascript-node_qunit_sinon",
+    "test_framework": true
+  },
+  "kotlin": {
+    "from": "openjdk:8-jdk-alpine",
+    "image_name": "cyberdojofoundation/kotlin",
+    "test_framework": false
+  },
+  "kotlin-test": {
+    "from": "cyberdojofoundation/kotlin",
+    "image_name": "cyberdojofoundation/kotlin_kotlintest",
+    "test_framework": true
+  },
+  "nasm": {
+    "from": "cyberdojofoundation/ubuntu-build-essential:18.04",
+    "image_name": "cyberdojofoundation/nasm",
+    "test_framework": false
+  },
+  "nasm-assert": {
+    "from": "cyberdojofoundation/nasm",
+    "image_name": "cyberdojofoundation/nasm_assert",
+    "test_framework": true
+  },
+  "pascal": {
+    "from": "alpine:latest",
+    "image_name": "cyberdojofoundation/freepascal_assert",
+    "test_framework": true
+  },
+  "perl": {
+    "from": "cyberdojofoundation/ubuntu-build-essential:18.04",
+    "image_name": "cyberdojofoundation/perl",
+    "test_framework": false
+  },
+  "perl-testsimple": {
+    "from": "cyberdojofoundation/perl",
+    "image_name": "cyberdojofoundation/perl_test_simple",
+    "test_framework": true
+  },
+  "php": {
+    "from": "cyberdojofoundation/ubuntu-build-essential:18.04",
+    "image_name": "cyberdojofoundation/php",
+    "test_framework": false
+  },
+  "php-unit": {
+    "from": "cyberdojofoundation/php",
+    "image_name": "cyberdojofoundation/php_phpunit",
+    "test_framework": true
+  },
+  "python": {
+    "from": "python",
+    "image_name": "cyberdojofoundation/python",
+    "test_framework": false
+  },
+  "python-assert": {
+    "from": "cyberdojofoundation/python",
+    "image_name": "cyberdojofoundation/python_assert",
+    "test_framework": true
+  },
+  "python-behave": {
+    "from": "cyberdojofoundation/python",
+    "image_name": "cyberdojofoundation/python_behave",
+    "test_framework": true
+  },
+  "python-pytest": {
+    "from": "cyberdojofoundation/python",
+    "image_name": "cyberdojofoundation/python_pytest",
+    "test_framework": true
+  },
+  "python-unittest": {
+    "from": "cyberdojofoundation/python",
+    "image_name": "cyberdojofoundation/python_unittest",
+    "test_framework": true
+  },
+  "r": {
+    "from": "cyberdojofoundation/ubuntu-build-essential:18.04",
+    "image_name": "cyberdojofoundation/rbase",
+    "test_framework": false
+  },
+  "r-runit": {
+    "from": "cyberdojofoundation/rbase",
+    "image_name": "cyberdojofoundation/r_runit",
+    "test_framework": true
+  },
+  "ruby": {
+    "from": "ruby:alpine",
+    "image_name": "cyberdojofoundation/ruby",
+    "test_framework": false
+  },
+  "ruby-approval": {
+    "from": "cyberdojofoundation/ruby",
+    "image_name": "cyberdojofoundation/ruby_approval",
+    "test_framework": true
+  },
+  "ruby-cucumber": {
+    "from": "cyberdojofoundation/ruby",
+    "image_name": "cyberdojofoundation/ruby_cucumber",
+    "test_framework": true
+  },
+  "ruby-minitest": {
+    "from": "cyberdojofoundation/ruby",
+    "image_name": "cyberdojofoundation/ruby_mini_test",
+    "test_framework": true
+  },
+  "ruby-rspec": {
+    "from": "cyberdojofoundation/ruby",
+    "image_name": "cyberdojofoundation/ruby_rspec",
+    "test_framework": true
+  },
+  "ruby-testunit": {
+    "from": "cyberdojofoundation/ruby",
+    "image_name": "cyberdojofoundation/ruby_test_unit",
+    "test_framework": true
+  },
+  "rust": {
+    "from": "alpine:latest",
+    "image_name": "cyberdojofoundation/rust",
+    "test_framework": false
+  },
+  "rust-test": {
+    "from": "cyberdojofoundation/rust",
+    "image_name": "cyberdojofoundation/rust_test",
+    "test_framework": true
+  },
+  "swift": {
+    "from": "cyberdojofoundation/ubuntu-build-essential:16.04",
+    "image_name": "cyberdojofoundation/swift",
+    "test_framework": false
+  },
+  "swift-swordfish": {
+    "from": "cyberdojofoundation/swift_xctest",
+    "image_name": "cyberdojofoundation/swift_swordfish",
+    "test_framework": true
+  },
+  "swift-xctest": {
+    "from": "cyberdojofoundation/swift",
+    "image_name": "cyberdojofoundation/swift_xctest",
+    "test_framework": true
+  }
+}
