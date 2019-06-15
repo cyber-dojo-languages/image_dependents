@@ -42,7 +42,7 @@ class CircleCI
   # - - - - - - - - - - - - - - - - - - - - -
 
   def validated?
-    found = triples.find { |_,tri| tri['image_name'] == image_name }
+    found = triples.find { |_repo,tri| tri['image_name'] == image_name }
     if found.nil?
       return false
     end
