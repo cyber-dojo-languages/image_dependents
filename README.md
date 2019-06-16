@@ -5,6 +5,11 @@
 - for example, [python-assert](https://github.com/cyber-dojo-languages/python-assert), [python-behave](https://github.com/cyber-dojo-languages/python-behave), [python-pytest](https://github.com/cyber-dojo-languages/python-pytest), and [python-unitest](https://github.com/cyber-dojo-languages/python-unittest) are all dependent on [python](https://github.com/cyber-dojo-languages/python) since they all have a Dockerfile which is built FROM it.
 - used in the main [build_test_push_notify.sh](https://github.com/cyber-dojo-languages/image_builder/blob/master/build_test_push_notify.sh) script of all [cyber-dojo-languages](https://github.com/cyber-dojo-languages) repos .circleci/config.yml files
 
+```bash
+$ cd /Users/jonjagger/repos/cyber-dojo-languages/python
+$ docker run --rm --volume "${PWD}:/data:ro" cyberdojofoundation/image_dependents
+python-assert python-behave python-pytest python-unittest
+```
 
 - - - -
 
