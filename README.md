@@ -8,7 +8,8 @@
 ```bash
 $ git clone https://github.com/cyber-dojo-languages/python.git
 $ cd python
-$ docker run --rm --volume "${PWD}:/data:ro" cyberdojofoundation/image_dependents
+$ DEPENDENTS=$(docker run --rm --volume "${PWD}:/data:ro" cyberdojofoundation/image_dependents)
+$ echo ${DEPENDENTS}
 python-assert python-behave python-pytest python-unittest
 ```
 
