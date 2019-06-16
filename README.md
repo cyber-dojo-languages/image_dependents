@@ -6,7 +6,8 @@
 - used in the main [build_test_push_notify.sh](https://github.com/cyber-dojo-languages/image_builder/blob/master/build_test_push_notify.sh) script of all [cyber-dojo-languages](https://github.com/cyber-dojo-languages) repos .circleci/config.yml files
 
 ```bash
-$ cd /Users/jonjagger/repos/cyber-dojo-languages/python
+$ git clone https://github.com/cyber-dojo-languages/python.git
+$ cd python
 $ docker run --rm --volume "${PWD}:/data:ro" cyberdojofoundation/image_dependents
 python-assert python-behave python-pytest python-unittest
 ```
