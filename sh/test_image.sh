@@ -38,8 +38,8 @@ ACTUAL=$(image_dependents)
 assert_equals "${EXPECTED}" "${ACTUAL}"
 
 cd ${TMP_DIR}
-git clone https://github.com/cyber-dojo-languages/python-pytest.git
-cd python-pytest
+git clone https://github.com/cyber-dojo-languages/csharp.git
+cd csharp
 EXPECTED="csharp-moq csharp-nunit csharp-specflow"
 ACTUAL=$(image_dependents)
 assert_equals "${EXPECTED}" "${ACTUAL}"
