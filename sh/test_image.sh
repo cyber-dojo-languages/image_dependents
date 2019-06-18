@@ -1,7 +1,11 @@
 #!/bin/bash
 set -e
 
-readonly TMP_DIR=$(mktemp -d)
+readonly MY_DIR="$( cd "$( dirname "${0}" )" && pwd )"
+# don't create TMP_DIR off /tmp because on Docker Toolbox
+# /tmp will not be available on the default VM
+readonly TMP=$(cd ${MY_DIR} && mktemp -d XXXXXX)
+readonly TMP_DIR=${MY_DIR}/${TMP}
 
 remove_tmp_dir()
 {
@@ -15,9 +19,9 @@ assert_equals()
   local -r expected="${1}"
   local -r actual="${2}"
   if [ "${expected}" != "${actual}" ]; then
-    echo 'FAILED'
     echo "expected: ${expected}"
     echo "  actual: ${actual}"
+    echo 'assert_equals() FAILED'
     exit 3
   fi
 }
