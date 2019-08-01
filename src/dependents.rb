@@ -6,7 +6,7 @@ require_relative 'circleci'
 require 'json'
 
 def dockerfile
-  $dockerfile ||= IO.read('/data/Dockerfile.base')
+  $dockerfile ||= IO.read('/data/Dockerfile')
 end
 
 # - - - - - - - - - - - - - - - - -
