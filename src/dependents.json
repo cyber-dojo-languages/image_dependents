@@ -99,6 +99,11 @@
     "image_name": "cyberdojofoundation/clangpp_assert",
     "test_framework": true
   },
+  "clangplusplus-catch": {
+    "from": "cyberdojofoundation/clangplusplus",
+    "image_name": "cyberdojofoundation/clangpp_catch",
+    "test_framework": true
+  },
   "clangplusplus-cgreen": {
     "from": "cyberdojofoundation/clangplusplus",
     "image_name": "cyberdojofoundation/clangpp_cgreen",
