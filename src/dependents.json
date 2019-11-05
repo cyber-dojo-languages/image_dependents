@@ -245,9 +245,19 @@
     "test_framework": true
   },
   "go": {
-    "from": "cyberdojofoundation/ubuntu-build-essential:18.04",
+    "from": "cyberdojofoundation/alpine_glibc",
     "image_name": "cyberdojofoundation/go",
     "test_framework": false
+  },
+  "go-convey": {
+    "from": "cyberdojofoundation/go",
+    "image_name": "cyberdojofoundation/go_convey",
+    "test_framework": true
+  },
+  "go-testify": {
+    "from": "cyberdojofoundation/go",
+    "image_name": "cyberdojofoundation/go_testify",
+    "test_framework": true
   },
   "go-testing": {
     "from": "cyberdojofoundation/go",
