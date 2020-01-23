@@ -6,7 +6,7 @@ require_relative 'circleci'
 require 'json'
 
 def dockerfile
-  $dockerfile ||= IO.read('/data/Dockerfile')
+  $dockerfile ||= IO.read('/data/docker/Dockerfile.base')
 end
 
 # - - - - - - - - - - - - - - - - -
@@ -27,7 +27,7 @@ def test_framework_filename
 end
 
 def base_language_filename
-  '/data/image_name.json'
+  '/data/docker/image_name.json'
 end
 
 def image_name

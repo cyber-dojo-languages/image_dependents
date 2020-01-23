@@ -485,7 +485,7 @@
     "test_framework": true
   },
   "python": {
-    "from": "python",
+    "from": "python:latest",
     "image_name": "cyberdojofoundation/python",
     "test_framework": false
   },
