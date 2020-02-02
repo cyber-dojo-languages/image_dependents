@@ -456,6 +456,11 @@
   },
   "pascal": {
     "from": "alpine:latest",
+    "image_name": "cyberdojofoundation/freepascal",
+    "test_framework": false
+  },
+  "pascal-assert": {
+    "from": "cyberdojofoundation/freepascal",
     "image_name": "cyberdojofoundation/freepascal_assert",
     "test_framework": true
   },
