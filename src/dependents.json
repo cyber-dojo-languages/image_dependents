@@ -568,5 +568,10 @@
     "from": "cyberdojofoundation/swift",
     "image_name": "cyberdojofoundation/swift_xctest",
     "test_framework": true
+  },
+  "zig-test": {
+    "from": "cyberdojofoundation/ubuntu-build-essential:18.04",
+    "image_name": "cyberdojofoundation/zig-test",
+    "test_framework": true
   }
 }
