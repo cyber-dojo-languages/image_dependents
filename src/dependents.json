@@ -240,7 +240,7 @@
     "test_framework": true
   },
   "go": {
-    "from": "alpine:latest",
+    "from": "golang:alpine",
     "image_name": "cyberdojofoundation/go",
     "test_framework": false
   },
