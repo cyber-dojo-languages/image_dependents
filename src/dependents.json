@@ -550,7 +550,7 @@
     "test_framework": true
   },
   "rust": {
-    "from": "alpine:latest",
+    "from": "rust:1-alpine3.11",
     "image_name": "cyberdojofoundation/rust",
     "test_framework": false
   },
