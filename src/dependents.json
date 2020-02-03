@@ -240,7 +240,7 @@
     "test_framework": true
   },
   "go": {
-    "from": "cyberdojofoundation/alpine_glibc",
+    "from": "alpine:latest",
     "image_name": "cyberdojofoundation/go",
     "test_framework": false
   },
