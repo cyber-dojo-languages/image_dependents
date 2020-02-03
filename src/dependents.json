@@ -475,7 +475,7 @@
     "test_framework": true
   },
   "php": {
-    "from": "cyberdojofoundation/ubuntu-build-essential:18.04",
+    "from": "php:buster",
     "image_name": "cyberdojofoundation/php",
     "test_framework": false
   },
