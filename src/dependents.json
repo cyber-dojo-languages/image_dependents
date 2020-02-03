@@ -465,7 +465,7 @@
     "test_framework": true
   },
   "perl": {
-    "from": "cyberdojofoundation/ubuntu-build-essential:18.04",
+    "from": "perl:latest",
     "image_name": "cyberdojofoundation/perl",
     "test_framework": false
   },
