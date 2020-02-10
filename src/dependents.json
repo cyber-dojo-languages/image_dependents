@@ -1,29 +1,4 @@
 {
-  "ubuntu-build-essential-18.04": {
-    "from": "ubuntu:18.04",
-    "image_name": "cyberdojofoundation/ubuntu-build-essential:18.04",
-    "test_framework": false
-  },
-  "vhdl": {
-    "from": "cyberdojofoundation/ubuntu-build-essential:18.04",
-    "image_name": "cyberdojofoundation/vhdl",
-    "test_framework": false
-  },
-  "vhdl-assert": {
-    "from": "cyberdojofoundation/vhdl",
-    "image_name": "cyberdojofoundation/vhdl_assert",
-    "test_framework": true
-  },
-  "visual-basic": {
-    "from": "cyberdojofoundation/ubuntu-build-essential:18.04",
-    "image_name": "cyberdojofoundation/visual-basic",
-    "test_framework": false
-  },
-  "visual-basic-nunit": {
-    "from": "cyberdojofoundation/visual-basic",
-    "image_name": "cyberdojofoundation/visual-basic_nunit",
-    "test_framework": true
-  },
   "alpine-glibc": {
     "from": "alpine:latest",
     "image_name": "cyberdojofoundation/alpine_glibc",
@@ -339,6 +314,11 @@
     "image_name": "cyberdojofoundation/java",
     "test_framework": false
   },
+  "java-13": {
+    "from": "openjdk:13-jdk-alpine",
+    "image_name": "cyberdojofoundation/java-13",
+    "test_framework": false
+  },
   "java-approval": {
     "from": "cyberdojofoundation/java",
     "image_name": "cyberdojofoundation/java_approval",
@@ -572,6 +552,31 @@
   "swift-xctest": {
     "from": "cyberdojofoundation/swift",
     "image_name": "cyberdojofoundation/swift_xctest",
+    "test_framework": true
+  },
+  "ubuntu-build-essential-18.04": {
+    "from": "ubuntu:18.04",
+    "image_name": "cyberdojofoundation/ubuntu-build-essential:18.04",
+    "test_framework": false
+  },
+  "vhdl": {
+    "from": "cyberdojofoundation/ubuntu-build-essential:18.04",
+    "image_name": "cyberdojofoundation/vhdl",
+    "test_framework": false
+  },
+  "vhdl-assert": {
+    "from": "cyberdojofoundation/vhdl",
+    "image_name": "cyberdojofoundation/vhdl_assert",
+    "test_framework": true
+  },
+  "visual-basic": {
+    "from": "cyberdojofoundation/ubuntu-build-essential:18.04",
+    "image_name": "cyberdojofoundation/visual-basic",
+    "test_framework": false
+  },
+  "visual-basic-nunit": {
+    "from": "cyberdojofoundation/visual-basic",
+    "image_name": "cyberdojofoundation/visual-basic_nunit",
     "test_framework": true
   },
   "zig": {
