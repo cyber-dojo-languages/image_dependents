@@ -314,9 +314,9 @@
     "image_name": "cyberdojofoundation/java",
     "test_framework": false
   },
-  "java-13": {
-    "from": "openjdk:13-jdk-alpine",
-    "image_name": "cyberdojofoundation/java-13",
+  "java-14": {
+    "from": "bellsoft/liberica-openjdk-alpine-musl:14.0.1",
+    "image_name": "cyberdojofoundation/java-14",
     "test_framework": false
   },
   "java-approval": {
@@ -355,7 +355,7 @@
     "test_framework": true
   },
   "java-junit": {
-    "from": "cyberdojofoundation/java",
+    "from": "cyberdojofoundation/java-14",
     "image_name": "cyberdojofoundation/java_junit",
     "test_framework": true
   },
