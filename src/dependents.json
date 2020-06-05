@@ -25,7 +25,7 @@
     "test_framework": true
   },
   "bcpl": {
-    "from": "cyberdojofoundation/ubuntu-build-essential:18.04",
+    "from": "cyberdojofoundation/ubuntu-build-essential-18-04",
     "image_name": "cyberdojofoundation/bcpl",
     "test_framework": false
   },
@@ -45,7 +45,7 @@
     "test_framework": true
   },
   "clang": {
-    "from": "cyberdojofoundation/ubuntu-build-essential:18.04",
+    "from": "cyberdojofoundation/ubuntu-build-essential-18-04",
     "image_name": "cyberdojofoundation/clang",
     "test_framework": false
   },
@@ -60,7 +60,7 @@
     "test_framework": true
   },
   "clangplusplus": {
-    "from": "cyberdojofoundation/ubuntu-build-essential:18.04",
+    "from": "cyberdojofoundation/ubuntu-build-essential-18-04",
     "image_name": "cyberdojofoundation/clangplusplus",
     "test_framework": false
   },
@@ -110,7 +110,7 @@
     "test_framework": true
   },
   "coffeescript": {
-    "from": "cyberdojofoundation/ubuntu-build-essential:18.04",
+    "from": "cyberdojofoundation/ubuntu-build-essential-18-04",
     "image_name": "cyberdojofoundation/coffeescript",
     "test_framework": false
   },
@@ -139,8 +139,18 @@
     "image_name": "cyberdojofoundation/csharp_specflow",
     "test_framework": true
   },
+  "csharp-dotnet": {
+    "from": "mcr.microsoft.com/dotnet/core/sdk",
+    "image_name": "cyberdojofoundation/csharp-dotnet",
+    "test_framework": false
+  },
+  "csharp-dotnet-test": {
+    "from": "cyberdojofoundation/csharp-dotnet",
+    "image_name": "cyberdojofoundation/csharp-dotnet_test",
+    "test_framework": true
+  },
   "d": {
-    "from": "cyberdojofoundation/ubuntu-build-essential:18.04",
+    "from": "cyberdojofoundation/ubuntu-build-essential-18-04",
     "image_name": "cyberdojofoundation/dee",
     "test_framework": false
   },
@@ -160,7 +170,7 @@
     "test_framework": true
   },
   "erlang": {
-    "from": "cyberdojofoundation/ubuntu-build-essential:18.04",
+    "from": "cyberdojofoundation/ubuntu-build-essential-18-04",
     "image_name": "cyberdojofoundation/erlang",
     "test_framework": false
   },
@@ -180,7 +190,7 @@
     "test_framework": true
   },
   "fsharp": {
-    "from": "cyberdojofoundation/ubuntu-build-essential:18.04",
+    "from": "cyberdojofoundation/ubuntu-build-essential-18-04",
     "image_name": "cyberdojofoundation/fsharp",
     "test_framework": false
   },
@@ -300,7 +310,7 @@
     "test_framework": true
   },
   "haskell": {
-    "from": "cyberdojofoundation/ubuntu-build-essential:18.04",
+    "from": "cyberdojofoundation/ubuntu-build-essential-18-04",
     "image_name": "cyberdojofoundation/haskell",
     "test_framework": false
   },
@@ -375,7 +385,7 @@
     "test_framework": true
   },
   "javascript": {
-    "from": "cyberdojofoundation/ubuntu-build-essential:18.04",
+    "from": "cyberdojofoundation/ubuntu-build-essential-18-04",
     "image_name": "cyberdojofoundation/javascript-node",
     "test_framework": false
   },
@@ -425,7 +435,7 @@
     "test_framework": true
   },
   "nasm": {
-    "from": "cyberdojofoundation/ubuntu-build-essential:18.04",
+    "from": "cyberdojofoundation/ubuntu-build-essential-18-04",
     "image_name": "cyberdojofoundation/nasm",
     "test_framework": false
   },
@@ -490,7 +500,7 @@
     "test_framework": true
   },
   "r": {
-    "from": "cyberdojofoundation/ubuntu-build-essential:18.04",
+    "from": "cyberdojofoundation/ubuntu-build-essential-18-04",
     "image_name": "cyberdojofoundation/rbase",
     "test_framework": false
   },
@@ -540,7 +550,7 @@
     "test_framework": true
   },
   "swift": {
-    "from": "cyberdojofoundation/ubuntu-build-essential:18.04",
+    "from": "cyberdojofoundation/ubuntu-build-essential-18-04",
     "image_name": "cyberdojofoundation/swift",
     "test_framework": false
   },
@@ -556,11 +566,11 @@
   },
   "ubuntu-build-essential-18.04": {
     "from": "ubuntu:18.04",
-    "image_name": "cyberdojofoundation/ubuntu-build-essential:18.04",
+    "image_name": "cyberdojofoundation/ubuntu-build-essential-18-04",
     "test_framework": false
   },
   "vhdl": {
-    "from": "cyberdojofoundation/ubuntu-build-essential:18.04",
+    "from": "cyberdojofoundation/ubuntu-build-essential-18-04",
     "image_name": "cyberdojofoundation/vhdl",
     "test_framework": false
   },
@@ -570,7 +580,7 @@
     "test_framework": true
   },
   "visual-basic": {
-    "from": "cyberdojofoundation/ubuntu-build-essential:18.04",
+    "from": "cyberdojofoundation/ubuntu-build-essential-18-04",
     "image_name": "cyberdojofoundation/visual-basic",
     "test_framework": false
   },
@@ -580,7 +590,7 @@
     "test_framework": true
   },
   "zig": {
-    "from": "cyberdojofoundation/ubuntu-build-essential:18.04",
+    "from": "cyberdojofoundation/ubuntu-build-essential-18-04",
     "image_name": "cyberdojofoundation/zig",
     "test_framework": false
   },
